@@ -102,7 +102,7 @@ The main Thread ends.
 
 #### Reference Links
 
-[http://blog.csdn.net/javazejian/article/details/50896505]
+http://blog.csdn.net/javazejian/article/details/50896505
 
 
 
