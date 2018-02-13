@@ -18,7 +18,7 @@ Future<Integer> futureResult = es.submit(new CallableDemo());
 int actualResult = futureResult.get(); // just an example, need to wrap it in try-catch
 ```
 
-At this point, please ignore the right hand side of the code `es.submit()` , it is just an method that give us an Future. This is useful because, we wont be blocked at the line of code. We don't need to wait until the `CallableDemo` finish. Future class also provides some methods that can tell us if the actual result is ready or not, like `isDone`. 
+At this point, please ignore the right hand side of the code `es.submit()` , it is just a method that give us a Future object. This is useful because, we won't be blocked at the line of code. We don't need to wait until the `CallableDemo` task finishes. Future class also provides some methods that can tell us if the actual result is ready or not, like `isDone`. 
 
 ***In short, Future class give us a way to compute "asynchronously", it provides a "fake"/"pretend" result instantly. Dont need to wait, just go ahead in the code. Come back and retrieve the actual result when it is ready.***
 
