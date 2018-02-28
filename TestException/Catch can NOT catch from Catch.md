@@ -61,3 +61,9 @@ Exception in thread "main" java.lang.RuntimeException: from first catch
 We can tell that, the same level, following Catch clause can Not catch the exceptions from the above Catch.
 
 Also, once again, the finally clause will always run.
+
+
+
+## References
+
+https://stackoverflow.com/questions/143622/exception-thrown-inside-catch-block-will-it-be-caught-again
