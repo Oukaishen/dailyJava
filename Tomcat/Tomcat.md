@@ -10,7 +10,7 @@
 **Shutdown the tomcat server through command line**
 
 + Go to tomcat bin directory
-+ ./shutdown.sh
++ `./shutdown.sh`
 
 
 
