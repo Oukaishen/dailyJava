@@ -36,13 +36,14 @@ public class bag01problem {
 				}
 			}
 		}
-	// the maximum value is at dp[n][w]
+		//the maximum value is at dp[n][w]
 		System.out.println(String.format("The maximun value is %s", dp[n][w]));
-		// use back-prop to trace back the track
+	// use back-prop to trace back the track
 		// 0 means not choose and 1 mean choose
-		int [] track  = new int[n]; 
+		int [] track  = new int[n];
+		for(int i = 0; i <n; i++) track[i] = 0;
 		
-		for(int i = n, j = w; i >= 1; i--){
+		for(int i = n, j = w; i >= 1 && j>=1; i--){
 			// no choose
 			if(dp[i][j] == dp[i-1][j])
 				track[i-1] = 0;
